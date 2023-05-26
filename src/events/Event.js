@@ -1,7 +1,6 @@
 class Event {
-  constructor() {
-    // Initialize any necessary state or dependencies
+  constructor(name) {
+    this.name = name;
   }
-}
 
 module.exports = Event;
