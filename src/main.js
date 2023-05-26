@@ -11,5 +11,8 @@ const http = require('http');
 
 http.createServer(function (req, res) {
   res.write('Hello World!');
+  res.write(`\nComponent: ${component}`);
+  res.write(`\nSpace: ${space}`);
+  res.write(`\nData Grid: ${dataGrid}`);
   res.end(); //end the response
 }).listen(8080);
