@@ -1,6 +1,6 @@
-class Entity {
+class Component {
   constructor(name) {
     this.name = name;
 }
 
-module.exports = Entity;
+module.exports = Component;
